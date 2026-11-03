@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindIt | Campus Lost & Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#home" class="logo">Find<span>It.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#items">Browse Items</a>
+            <a href="#report">Report Item</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#report" class="nav-btn">+ Report Item</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">YOUR CAMPUS, YOUR COMMUNITY</p>
+
+            <h1>Lost Something?<br>
+                <span>Let's Find It.</span>
+            </h1>
+
+            <p class="hero-text">
+                Lost or found something on campus?
+                FindIt helps students locate their belongings
+                across classrooms, labs, libraries and more.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#items" class="primary-btn">
+                    Find an Item →
+                </a>
+
+                <a href="#report" class="secondary-btn">
+                    Report an Item
+                </a>
+            </div>
+
+            <div class="hero-note">
+                ♡ Together, we can bring lost belongings home.
+            </div>
+        </div>
+
+        <div class="hero-illustration">
+            <div class="search-circle">🔎</div>
+            <div class="floating-card card-one">
+                🎒 &nbsp; Backpack Found
+            </div>
+            <div class="floating-card card-two">
+                💳 &nbsp; ID Card
+            </div>
+            <div class="floating-card card-three">
+                🔑 &nbsp; Lost Keys
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="search-heading">
+            <h2>Find Your Belongings</h2>
+            <p>Search by item name, category or campus location.</p>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="🔍  Search for an item...">
+
+            <select>
+                <option>All Categories</option>
+                <option>Electronics</option>
+                <option>ID Cards</option>
+                <option>Bags & Wallets</option>
+                <option>Books & Stationery</option>
+                <option>Other Items</option>
+            </select>
+
+            <select>
+                <option>All Locations</option>
+                <option>Classroom</option>
+                <option>Computer Lab</option>
+                <option>Library</option>
+                <option>Canteen</option>
+                <option>Parking Area</option>
+                <option>Sports Ground</option>
+            </select>
+
+            <button type="button">Search</button>
+        </div>
+    </section>
+
+    <!-- Browse Items -->
+    <section class="items-section" id="items">
+        <div class="section-heading">
+            <div>
+                <p class="small-label">CAMPUS ITEM DIRECTORY</p>
+                <h2>Recently Reported Items</h2>
+                <p>Browse the items listed by students.</p>
+            </div>
+
+            <a href="#report" class="text-link">Report an Item →</a>
+        </div>
+
+        <div class="filter-row">
+            <a href="#items" class="filter active">All Items</a>
+            <a href="#items" class="filter">Lost Items</a>
+            <a href="#items" class="filter">Found Items</a>
+        </div>
+
+        <div class="item-grid">
+
+            <article class="item-card">
+                <div class="item-image backpack">
+                    🎒
+                    <span class="status lost">LOST</span>
+                </div>
+                <div class="item-details">
+                    <p class="category">BAGS & ACCESSORIES</p>
+                    <h3>Black Backpack</h3>
+                    <p class="location">📍 Block 25 · Room 204</p>
+                    <p class="date">📅 22 October 2026</p>
+                    <div class="item-footer">
+                        <span>Reported by Student</span>
+                        <a href="#contact">View Details →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="item-card">
+                <div class="item-image id-card">
+                    💳
+                    <span class="status found">FOUND</span>
+                </div>
+                <div class="item-details">
+                    <p class="category">IDENTIFICATION</p>
+                    <h3>Student ID Card</h3>
+                    <p class="location">📍 University Library</p>
+                    <p class="date">📅 22 October 2026</p>
+                    <div class="item-footer">
+                        <span>Reported by Student</span>
+                        <a href="#contact">View Details →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="item-card">
+                <div class="item-image keys">
+                    🔑
+                    <span class="status lost">LOST</span>
+                </div>
+                <div class="item-details">
+                    <p class="category">PERSONAL ITEMS</p>
+                    <h3>Set of Keys</h3>
+                    <p class="location">📍 Parking Area</p>
+                    <p class="date">📅 21 October 2026</p>
+                    <div class="item-footer">
+                        <span>Reported by Student</span>
+                        <a href="#contact">View Details →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="item-card">
+                <div class="item-image bottle">
+                    🧴
+                    <span class="status found">FOUND</span>
+                </div>
+                <div class="item-details">
+                    <p class="category">PERSONAL ITEMS</p>
+                    <h3>Blue Water Bottle</h3>
+                    <p class="location">📍 Block 32 · Room 105</p>
+                    <p class="date">📅 21 October 2026</p>
+                    <div class="item-footer">
+                        <span>Reported by Student</span>
+                        <a href="#contact">View Details →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="item-card">
+                <div class="item-image book">
+                    📚
+                    <span class="status lost">LOST</span>
+                </div>
+                <div class="item-details">
+                    <p class="category">BOOKS & STATIONERY</p>
+                    <h3>Physics Notebook</h3>
+                    <p class="location">📍 Academic Block · Lab 2</p>
+                    <p class="date">📅 20 October 2026</p>
+                    <div class="item-footer">
+                        <span>Reported by Student</span>
+                        <a href="#contact">View Details →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="item-card">
+                <div class="item-image earphones">
+                    🎧
+                    <span class="status found">FOUND</span>
+                </div>
+                <div class="item-details">
+                    <p class="category">ELECTRONICS</p>
+                    <h3>Wireless Earphones</h3>
+                    <p class="location">📍 College Canteen</p>
+                    <p class="date">📅 20 October 2026</p>
+                    <div class="item-footer">
+                        <span>Reported by Student</span>
+                        <a href="#contact">View Details →</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Report Item Section -->
+    <section class="report-section" id="report">
+        <div class="report-intro">
+            <p class="small-label">HELP YOUR CAMPUS</p>
+            <h2>Lost It or Found It?</h2>
+            <p>
+                Your small action can make someone's day.
+                Choose an option to report an item.
+            </p>
+        </div>
+
+        <div class="report-grid">
+            <div class="report-card">
+                <div class="report-icon">🔍</div>
+                <h3>I Lost Something</h3>
+                <p>
+                    Can't find your belongings?
+                    Add the item details and its last known location.
+                </p>
+                <a href="#lost-form" class="primary-btn">
+                    Report Lost Item →
+                </a>
+            </div>
+
+            <div class="report-card">
+                <div class="report-icon">🤝</div>
+                <h3>I Found Something</h3>
+                <p>
+                    Found an item on campus?
+                    Help its owner find it by listing the details.
+                </p>
+                <a href="#found-form" class="green-btn">
+                    Report Found Item →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lost Item Form -->
+    <section class="form-section" id="lost-form">
+        <div class="form-card">
+            <h2>Report a Lost Item</h2>
+            <p>Provide details about the missing belonging.</p>
+
+            <form action="#">
+                <label>Item Name</label>
+                <input type="text" placeholder="e.g. Black wallet">
+
+                <label>Category</label>
+                <select>
+                    <option>Select category</option>
+                    <option>Electronics</option>
+                    <option>ID Cards</option>
+                    <option>Bags & Wallets</option>
+                    <option>Books & Stationery</option>
+                    <option>Other</option>
+                </select>
+
+                <label>Last Seen Location</label>
+                <select>
+                    <option>Select campus location</option>
+                    <option>Classroom</option>
+                    <option>Computer Lab</option>
+                    <option>Library</option>
+                    <option>Canteen</option>
+                    <option>Parking Area</option>
+                    <option>Sports Ground</option>
+                </select>
+
+                <label>Date Lost</label>
+                <input type="date">
+
+                <label>Item Description</label>
+                <textarea placeholder="Describe the item..."></textarea>
+
+                <button type="button" class="primary-btn">
+                    Submit Lost Report
+                </button>
+            </form>
+            <p class="demo-note">Demo form only — details are not saved.</p>
+        </div>
+    </section>
+
+    <!-- Found Item Form -->
+    <section class="form-section found-form-section" id="found-form">
+        <div class="form-card">
+            <h2>Report a Found Item</h2>
+            <p>Help return a found item to its rightful owner.</p>
+
+            <form action="#">
+                <label>Item Name</label>
+                <input type="text" placeholder="e.g. Blue water bottle">
+
+                <label>Category</label>
+                <select>
+                    <option>Select category</option>
+                    <option>Electronics</option>
+                    <option>ID Cards</option>
+                    <option>Bags & Wallets</option>
+                    <option>Books & Stationery</option>
+                    <option>Other</option>
+                </select>
+
+                <label>Found At Location</label>
+                <select>
+                    <option>Select campus location</option>
+                    <option>Classroom</option>
+                    <option>Computer Lab</option>
+                    <option>Library</option>
+                    <option>Canteen</option>
+                    <option>Parking Area</option>
+                    <option>Sports Ground</option>
+                </select>
+
+                <label>Date Found</label>
+                <input type="date">
+
+                <label>Item Description</label>
+                <textarea placeholder="Describe where and how you found it..."></textarea>
+
+                <button type="button" class="green-btn">
+                    Submit Found Report
+                </button>
+            </form>
+            <p class="demo-note">Demo form only — details are not saved.</p>
+        </div>
+    </section>
+
+    <!-- Contact and Footer -->
+    <section class="contact-section" id="contact">
+        <h2>Need Help?</h2>
+        <p>
+            For assistance with lost belongings, contact your
+            college's designated Lost & Found Help Desk.
+        </p>
+        <a href="#home" class="secondary-btn">Back to Home ↑</a>
+    </section>
+
+    <footer>
+        <a href="#home" class="logo footer-logo">Find<span>It.</span></a>
+        <p>Connecting lost belongings with their owners.</p>
+        <p class="copyright">
+            © 2026 FindIt | College Project Demo
+        </p>
+    </footer>
+
+</body>
+</html>
